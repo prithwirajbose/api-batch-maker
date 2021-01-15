@@ -1,0 +1,82 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #a3a3a3;
+    font-size: 1em;
+    color: #272727;
+}
+
+a:link,
+a:visited {
+    color: #0170c0;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+.container {
+    width: 1280px;
+    margin: 10px auto;
+    border: 1px solid #696969;
+    background: #f7f7f7;
+}
+
+.header {
+    padding: 10px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Rammetto One', cursive;
+    line-height: 28px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.caption {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.nav {
+    background: #2f2f2f;
+    width: 100%;
+    padding: 0px;
+    font-size: 1em;
+}
+
+a.navitem {
+    font-size: 16px;
+    color: #d3e6f3;
+    font-weight: bold;
+    padding: 9px 30px;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.navitem:hover {
+    background: #454545;
+}
+
+a.navitem.active {
+    color: #fff;
+}
+
+.main {
+    margin: 10px 20px;
+    min-height: 300px;
+}
+
+.footer {
+    background-color: #696969;
+    color: #e5e5e5;
+    text-align: center;
+    padding: 20px;
+}
