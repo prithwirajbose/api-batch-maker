@@ -18,6 +18,11 @@ a:visited {
     text-decoration: none;
 }
 
+.clear {
+    clear: both;
+    line-height: 0px;
+}
+
 .container {
     width: 1280px;
     margin: 10px auto;
@@ -67,6 +72,13 @@ a.navitem:hover {
 
 a.navitem.active {
     color: #fff;
+}
+
+.toolbox {
+    color: #fff;
+    float: right;
+    clear: both;
+    padding: 9px 20px;
 }
 
 .main {
