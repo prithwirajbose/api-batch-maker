@@ -7,9 +7,9 @@
     <meta name="description" content="API Batch Maker is a tool to make Batch Processes on API.">
     <meta name="author" content="Prithwiraj Bose">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rammetto+One&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="resources/fonts.css" rel="stylesheet">
+    <link href="resources/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -20,23 +20,60 @@
         </header>
         <nav class="nav">
             <a href="index.html" class="navitem active">Home</a>
-            <a href="batches.html" class="navitem">Batches</a>
-            <a href="execute.html" class="navitem">Execute</a>
-            <a href="users.html" class="navitem">Users</a>
+            <a href="batch-list.html" class="navitem">Batches</a>
+            <a href="execute-batch.html" class="navitem">Execute</a>
+            <a href="user-list.html" class="navitem">Users</a>
             <a href="configure.html" class="navitem">Configure</a>
             <a href="help.html" class="navitem">Help</a>
             <div class="toolbox">Welcome <b>Guest</b></div>
             <div class="clear">&nbsp;</div>
         </nav>
         <section class="main">
-            <article class="col-3">
-                Here are some simple text. This text is so simple that you can read it with zero stress. Easy to read and looks nice as well.
-            </article>
-            <article class="col-3">
-                Here are some simple text. This text is so simple that you can read it with zero stress. Easy to read and looks nice as well.
-            </article>
-            <article class="col-3">
-                Here are some simple text. This text is so simple that you can read it with zero stress. Easy to read and looks nice as well.
+            <h1>Actions</h1>
+            <p>Choose an action from below</p>
+            <article class="col-1">
+                <a href="add-batch.html">
+                    <div class="action-icon">
+                        <div class="material-icons">
+                            playlist_add
+                        </div>Create Batch
+                    </div>
+                </a>
+                <a href="batch-list.html">
+                    <div class="action-icon">
+                        <div class="material-icons">
+                            list
+                        </div>Batch List
+                    </div>
+                </a>
+                <a href="execute-batch.html">
+                    <div class="action-icon">
+                        <div class="material-icons">
+                            playlist_play
+                        </div>Execute Batch
+                    </div>
+                </a>
+                <a href="add-user.html">
+                    <div class="action-icon">
+                        <div class="material-icons">
+                            group_add
+                        </div>Create User
+                    </div>
+                </a>
+                <a href="user-list.html">
+                    <div class="action-icon">
+                        <div class="material-icons">
+                            group
+                        </div>User List
+                    </div>
+                </a>
+                <a href="configure.html">
+                    <div class="action-icon">
+                        <div class="material-icons">
+                            settings
+                        </div>Configure
+                    </div>
+                </a>
             </article>
             <div class="clear">&nbsp;</div>
         </section>

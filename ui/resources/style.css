@@ -84,36 +84,77 @@ a.navitem.active {
 }
 
 .main {
-    margin: 10px 20px;
+    margin: 20px;
     min-height: 300px;
+    display: block;
+}
+
+.col-5 {
+    width: 18%;
+    float: left;
+    clear: right;
+    display: inline;
+    margin: 1%;
 }
 
 .col-4 {
-    width: 24%;
+    width: 23%;
     float: left;
     clear: right;
     display: inline;
-    margin-right: 1%;
+    margin: 1%;
 }
 
 .col-3 {
-    width: 32%;
+    width: 31%;
     float: left;
     clear: right;
     display: inline;
-    margin-right: 1%;
+    margin: 1%;
 }
 
 .col-2 {
-    width: 49%;
+    width: 48%;
     float: left;
     clear: right;
     display: inline;
-    margin-right: 1%;
+    margin: 1%;
 }
 
 .col-1 {
     width: 99%;
+}
+
+.center {
+    text-align: center;
+}
+
+.action-icon {
+    border: 1px solid #333;
+    border-radius: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 130px;
+    text-align: center;
+    background-color: #c5deef;
+    text-shadow: 1px 1px 3px #666;
+    padding: 25px 0px;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    margin: 30px;
+    color: #272727;
+    text-decoration: none;
+}
+
+.action-icon:hover {
+    background-color: #70aed8;
+    transition: 0.7s;
+}
+
+.action-icon .material-icons {
+    font-size: 36px;
+    display: block;
 }
 
 .footer {
