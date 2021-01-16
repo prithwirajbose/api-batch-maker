@@ -41,6 +41,8 @@ a:visited {
     line-height: 28px;
     padding: 0px;
     margin: 0px;
+    color: #c5deef;
+    text-shadow: 1px 1px 6px #000;
 }
 
 .caption {
@@ -84,6 +86,34 @@ a.navitem.active {
 .main {
     margin: 10px 20px;
     min-height: 300px;
+}
+
+.col-4 {
+    width: 24%;
+    float: left;
+    clear: right;
+    display: inline;
+    margin-right: 1%;
+}
+
+.col-3 {
+    width: 32%;
+    float: left;
+    clear: right;
+    display: inline;
+    margin-right: 1%;
+}
+
+.col-2 {
+    width: 49%;
+    float: left;
+    clear: right;
+    display: inline;
+    margin-right: 1%;
+}
+
+.col-1 {
+    width: 99%;
 }
 
 .footer {
