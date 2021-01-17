@@ -1,15 +1,15 @@
 var API_PATH = 'http://localhost:8080';
 
 var handleError = function(xhr, status, err) {
-    alert(JSON.stringify(xhr));
+    //alert(JSON.stringify(xhr));
 };
 
 var showLoading = function() {
-
+    $('.loading').show();
 };
 
 var hideLoading = function() {
-
+    $('.loading').hide();
 };
 
 var xhr = function(userConfig) {
@@ -49,7 +49,7 @@ var xhr = function(userConfig) {
             }
         },
         beforeSend: function(xhr, settings) {
-            if ($.active <= 0) {
+            if ($.active <= 1) {
                 showLoading();
             }
         },
@@ -62,3 +62,7 @@ var xhr = function(userConfig) {
 
     return $.ajax(config);
 };
+
+$(document).ready(function() {
+
+});
